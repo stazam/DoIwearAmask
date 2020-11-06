@@ -1,0 +1,25 @@
+<html>
+  <head>
+    
+    <h1>Image classification: Quads or Inline?</h1>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="input"></div><input type="file" id="files" />
+    <label for = "files"><i class = "glyphicon glyphicon-open"></i>&nbsp;Choose a file...</label> 
+    </div><br /><br />
+    <!-- Add an image that we will use to test -->
+    <output id="image" width="500" height="300"><img id="img" crossorigin src="https://ae01.alicdn.com/kf/HTB18yfVRXzqK1RjSZFoq6zfcXXaW/100-Original-Powerslide-Imperial-3-110mm-Speed-Inline-Skates-Street-Adult-Roller-Skating-Shoes-Free-Skating.jpg"/></output><br /><br />
+    <!-- Here comes the prediction -->
+    <div id="pred" class="predd" style="vertical-align:middle;margin:0px 620px">
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+
+    </div><br />
+
+
+  </body>
+</html>
