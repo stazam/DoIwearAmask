@@ -1,25 +1,48 @@
 <html>
   <head>
     
-    <h1>Image classification: Quads or Inline?</h1>
+    <h1>Do you wear a mask?</h1>
     <!-- Load the latest version of TensorFlow.js -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+
+  </div>
+  <h2>Examples:</h2>
+</body>
+  <div class="row">
+    <div class="column">
+      <img id = "img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS95AULsjpF7EtryABn0a_XkZMavsF-GY_QdQ&usqp=CAU">
+      <h3>Great you wear a mask! (probability=99,8%)</h3>
+    </div>
+    <div class="column">
+      <img id = "img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjiA50-ZMt1qchXM8eKjR1MuguC_sx6lYzng&usqp=CAU">
+      <h3>You don't wear a mask! (probability=97,3%)</h3>
+    </div>
+  </div>
+</div>
+  <!-- Add an image that we will use to test -->
+  </div>
+
+  <br />
     <div id="input"></div><input type="file" id="files" />
     <label for = "files"><i class = "glyphicon glyphicon-open"></i>&nbsp;Choose a file...</label> 
-    </div><br /><br />
-    <!-- Add an image that we will use to test -->
-    <output id="image" width="500" height="300"><img id="img" crossorigin src="https://ae01.alicdn.com/kf/HTB18yfVRXzqK1RjSZFoq6zfcXXaW/100-Original-Powerslide-Imperial-3-110mm-Speed-Inline-Skates-Street-Adult-Roller-Skating-Shoes-Free-Skating.jpg"/></output><br /><br />
+
+    <!-- sem pride pop up window s textom wear a mask or dont -->
+
+    <output id="image"><img id="img" crossorigin src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_YdJhtnAg1SzJiIcnWPG9BaQWC5Dp7glnIA&usqp=CAU"/></output><br /><br /> -->
     <!-- Here comes the prediction -->
     <div id="pred" class="predd" style="vertical-align:middle;margin:0px 620px">
     <!-- Load index.js after the content of the page -->
     <script src="index.js"></script>
 
+
+
+
     </div><br />
 
 
-  </body>
+ 
 </html>
